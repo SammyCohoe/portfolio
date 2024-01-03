@@ -2,6 +2,8 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from "framer-motion"
+import { HomeIcon } from '@heroicons/react/16/solid'
+import Link from 'next/link';
 
 
 type Props = {}
@@ -28,6 +30,10 @@ function Header({}: Props) {
           >
 
             {/* icons */}
+            <Link href='#hero'>
+            <HomeIcon className='text-[#64ffda] h-10 w-8'/>
+            </Link>
+            
             <SocialIcon url="https://www.linkedin.com/in/samuel-cohoe-11982922b/" 
             fgColor='#64ffda' 
             bgColor='transparent'
@@ -54,7 +60,9 @@ function Header({}: Props) {
         transition={{
             duration:1.5,
         }}
-        className='flex flex-row items-center text-gray-300 cursor-pointer'>
+        className='flex flex-row items-center text-gray-300 cursor-pointer'
+        onClick={() => window.location.href = 'mailto:sammycohoe@gmail.com'}
+        >
             <SocialIcon 
                 className='cursor-pointer'
                 network='email'

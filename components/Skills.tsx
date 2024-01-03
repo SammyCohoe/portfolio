@@ -3,11 +3,11 @@ import React from 'react'
 import { motion } from "framer-motion"
 import Skill from './Skill';
 
-type Props = {
-    directionLeft?: boolean
-}
+type Props = {}
 
-function Skills({directionLeft}: Props) {
+function Skills({}: Props) {
+    const links = ["css.svg", 'git.svg', 'html.svg', 'insomnia.svg', 'intellij.svg', 'java.svg', 'javascript.svg', 'mongodb.svg', 'mysql.svg',
+                    'nodejs.svg', 'pycharm.svg', 'python.svg', 'react.svg', 'vscode.svg', 'typescript.svg']
   return (
     <motion.div className='flex relative flex-col text-center md:text-left xl:flex-row
     maw-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
@@ -15,20 +15,10 @@ function Skills({directionLeft}: Props) {
             Skills
         </h3>
 
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
-            Hover over a skill for current profiecency
-        </h3>
-
+        
         <div className='grid grid-cols-4 gap-5'>
+            {links?.map(skill => <Skill skill={skill} key={skill} />)}
             
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
-            <Skill />
         </div>
 
         

@@ -4,7 +4,6 @@ import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Head from "next/head";
-import Link from 'next/link';
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
@@ -44,9 +43,9 @@ export default function Home() {
       </section>
 
       {/* Expierence */}
-      <section id="experience" className="snap-center">
+      {/* <section id="experience" className="snap-center">
         <Experience />
-      </section>
+      </section> */}
       
       {/* Skills */}
       <section id="skills" className="snap-center">
@@ -59,7 +58,7 @@ export default function Home() {
       </section>
 
       {/* Contact Me */}
-      <section id="contanctMe" className="snap-center">
+      <section id="contactMe" className="snap-center">
         <ContactMe />
       </section>
 
