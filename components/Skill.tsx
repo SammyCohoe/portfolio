@@ -26,7 +26,6 @@ function Skill({leftDirection}: Props) {
             <div className='flex items-center justify-center h-full'>
                 <p className='text-3xl font-bold text-black opacity-100'>100%</p>
             </div>
-
         </div>
     </div>
   )

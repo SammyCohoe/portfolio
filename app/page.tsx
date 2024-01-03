@@ -1,16 +1,30 @@
+'use client';
 import Header from "@/components/Header";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Head from "next/head";
+import Link from 'next/link';
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import ContactMe from "@/components/ContactMe";
 
 
 export default function Home() {
   return (
     <div className="bg-[#0a192f] text-white h-screen snap-y snap-mandatory 
-    overflow-scroll z-0">
+    overflow-y-scroll overflow-x-hidden z-0 ">
+    <style jsx global>{`
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #64ffda;
+            border-radius: 6px;
+        }
+    `}</style>
+    
       <Head>
         <title>Sammy's Portfolio</title>
       </Head>
@@ -45,7 +59,10 @@ export default function Home() {
       </section>
 
       {/* Contact Me */}
-      
+      <section id="contanctMe" className="snap-center">
+        <ContactMe />
+      </section>
+
       
     </div>
   )

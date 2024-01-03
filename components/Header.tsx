@@ -32,14 +32,11 @@ function Header({}: Props) {
             fgColor='#64ffda' 
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.linkedin.com/in/samuel-cohoe-11982922b/" 
+            <SocialIcon url="https://github.com/SammyCohoe" 
             fgColor='#64ffda' 
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.linkedin.com/in/samuel-cohoe-11982922b/" 
-            fgColor='#64ffda' 
-            bgColor='transparent'
-            />
+            
         </motion.div>
         
 
