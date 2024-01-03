@@ -13,7 +13,7 @@ export default function About({}: Props) {
 
     className='h-screen flex flex-col relative text-center md:left md:flex-row 
     max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-txl'>
+        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl'>
             About
         </h3>
 
@@ -34,7 +34,7 @@ export default function About({}: Props) {
 
         <div className='space-y-10 px-0 md:px-10 '>
             <h4 className='text-4xl font-semibold text-[#ccd6f6]'>Here is a{" "} 
-                <span className='underline decoration-[lightest-slate]'>little</span>{" "} 
+                <span className=' text-[#64ffda] underline decoration-[#64ffda]'>little</span>{" "} 
                 background
             </h4>
             <p className='text-base text-[#8892b0] ' style={{ whiteSpace: 'pre-line' }}>
