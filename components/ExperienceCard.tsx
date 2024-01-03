@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import { motion } from "framer-motion"
+import Image from 'next/image';
 
 type Props = {}
 
@@ -30,11 +31,13 @@ function ExperienceCard({}: Props) {
         </h4>
             {/* <p className='font-bold text-2xl mt-1'>Western University</p> */}
             <div className='flex space-x-2 '>
-                <img
+                <Image
                 className='h-10 w-10 rounded-full'
                 src='python.svg'
                 alt=''
                 style={{ transform: 'scale(0.75)' }}
+                width={100}
+                height={100}
                 />
                 
             </div>

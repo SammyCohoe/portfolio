@@ -38,10 +38,10 @@ export default function About({}: Props) {
                 background
             </h4>
             <p className='text-base text-[#8892b0] ' style={{ whiteSpace: 'pre-line' }}>
-                Hello! My name is Sammy and I'm a 3rd year Software Engineering student at Western University. I first took interest in programming in a Grade.11 computer science class where I learned all about Python.
+                Hello! My name is Sammy and I&apos;m a 3rd year Software Engineering student at Western University. I first took interest in programming in a Grade.11 computer science class where I learned all about Python.
                 {'\n'}
                 {'\n'}
-                Fast forward to today and I've directed Western Engineering's Programming competition, become a team lead for the Western Developer Society, and participated in multiple hackathons.
+                Fast forward to today and I&apos;ve directed Western Engineering's Programming competition, become a team lead for the Western Developer Society, and participated in multiple hackathons.
             </p>
         </div>
     </motion.div>

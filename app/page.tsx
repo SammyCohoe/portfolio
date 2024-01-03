@@ -25,7 +25,7 @@ export default function Home() {
     `}</style>
     
       <Head>
-        <title>Sammy's Portfolio</title>
+        <title>Sammy&apos;s Portfolio</title>
       </Head>
 
       {/* Header */}
