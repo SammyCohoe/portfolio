@@ -9,21 +9,21 @@ function Projects({}: Props) {
       1: {
         name: "Fullstack Superhero API",
         photo: "Superhero.jpg",
-        link: "",
+        link: "https://github.com/SammyCohoe/MERN-Stack-Superhero-Website",
         desc:
           "This MERN stack application allows users to browse a database containing 100s of superheroes. Users can create personalized lists, leave reviews, and browse those created by others. This is my first react project and helped me learn the principles of REST APIs.",
       },
       2: {
         name: "ATLA Game",
         photo: "avatar_project.png",
-        link: "",
+        link: "https://github.com/SammyCohoe/ATLA-Game",
         desc:
           "This PyGame project allows users to play as the Avatar and traverse the 4 kingdoms of the ATLA world. Users must fight monsters and level their character to up survive and defeat the final boss. This project helped teach me the fundamentals of OOP and allowed me to expand on my Python skills.",
       },
       3: {
         name: "Tweet Sensitivity Analyzer",
         photo: "twitter_cohere_project.jpg",
-        link: "",
+        link: "https://github.com/SammyCohoe/TweetSentimentAnalysisProgram",
         desc:
           "This application makes use of CoHere’s sentiment analysis API to categorize Tweets scrapped from Twitter based off a user’s inputted hashtag. It then graphs these Tweets and displays the most positive and negative for the user to see. This project was created in my first Hackathon!",
       },
