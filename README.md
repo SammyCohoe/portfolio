@@ -1,5 +1,6 @@
 # Sammy Cohoe's Personal Portfolio
 This personal portfolio was created to showcase my academics, interests, passions, and experience in the tech field.
+![image](https://github.com/SammyCohoe/portfolio/assets/56962638/a0239f84-b67c-4707-b497-42d5731ca517)
 
 ## Deployed Version 
 
@@ -13,7 +14,7 @@ npm install
 
 Run Dev Server 
 ```bash
-npm start
+npm run dev
 ```
 
 
